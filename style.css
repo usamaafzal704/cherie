@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Ubuntu&display=swap');
+a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:focus, .nav-txt{
+    color: white;
+}
+a.navbar-brand{
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.nav-img{
+    width:100%;
+    height: 100vh;
+    background-image: url(makeup.jpg);
+    background-size: cover;
+}
+
+ul.navv li a.nav-link.active {
+    color: white;
+    margin: 10px;
+    font-size: small;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-txt{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3.5rem !important;
+}
+.cntr{
+    width: 100%;
+}
+.btn1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 10px 20px;
+}
+div.cardz .card {
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.section1{
+    max-width: 100%;
+}
+.icons{
+    justify-content: center;
+}
+.icon{
+    width: 2.5rem;
+    /* margin: 0px 20px; */
+}
+#mid{
+    text-align: center;
+}
+.my-bg{
+    background-color: rgb(249, 238, 223);
+}
+section.shop img{
+    width: 100%;
+    height: 300px;
+}
+section.shop .card{
+    border:none;
+}
+section.shop .card:hover{
+    box-shadow: 5px 5px 9px 1px;
+}
